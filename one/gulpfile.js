@@ -4,7 +4,7 @@ var ts = require('gulp-typescript');
 gulp.task('typescript', function() {
   console.log('Compiling typescript');
   return gulp.src(['typescript/**/*.ts'])
-    .pipe(ts({module: 'commonjs'})).js.pipe(gulp.dest('./deploy'))
+    .pipe(ts({module: 'AMD'})).js.pipe(gulp.dest('./deploy'))
 });
 
 
