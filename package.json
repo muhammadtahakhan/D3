@@ -1,0 +1,24 @@
+{
+  "name": "d3",
+  "version": "1.0.0",
+  "description": "\"# D3\"",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadtahakhan/D3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadtahakhan/D3/issues"
+  },
+  "homepage": "https://github.com/muhammadtahakhan/D3#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-typescript": "^2.13.4"
+  }
+}
